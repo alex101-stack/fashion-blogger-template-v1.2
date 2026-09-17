@@ -1,0 +1,14 @@
+{
+  "name": "fashion-blogger-template-v1.2",
+  "version": "1.2.0",
+  "private": true,
+  "scripts": {
+    "validate": "node scripts/validation/validate-contract.js",
+    "validate:xml": "node scripts/validation/validate-xml.js",
+    "validate:blogger": "node scripts/validation/validate-blogger.js",
+    "test": "node scripts/testing/run-tests.js",
+    "test:dom": "node scripts/testing/dom-compliance-checker.js",
+    "build": "node scripts/build/build-theme.js",
+    "release": "node scripts/release/create-release.js"
+  }
+}

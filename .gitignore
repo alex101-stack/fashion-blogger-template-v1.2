@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Build artifacts
+dist/development/
+dist/staging/
+
+# Local environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code local state
+.vscode/*.local
+
+# Test output
+coverage/
+test-results/
+
+# Temporary files
+tmp/
+temp/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local screenshots
+verification/evidence/screenshots/local/
+
+# Secrets
+*.key
+*.pem
